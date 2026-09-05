@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ssl-trust-root-demo
+
+# Print the handshake experiment to the console as soon as the app is up.
+# The same scenarios are also exposed as HTTP endpoints under /api/ssl-demo.
+demo:
+  run-on-startup: true
